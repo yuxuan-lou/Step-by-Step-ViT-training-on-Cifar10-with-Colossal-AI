@@ -4,6 +4,7 @@ from colossalai.amp import AMP_TYPE
 BATCH_SIZE = 256
 DROP_RATE = 0.1
 NUM_EPOCHS = 300
+NUM_CLASSES = 10
 
 fp16 = dict(
     mode=AMP_TYPE.TORCH,

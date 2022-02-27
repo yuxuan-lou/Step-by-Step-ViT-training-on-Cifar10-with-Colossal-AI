@@ -9,10 +9,6 @@ fp16 = dict(
     mode=AMP_TYPE.TORCH,
 )
 
-parallel = dict(
-    pipeline=2
-)
-
 NUM_CHUNKS = 1
 
 gradient_accumulation = 16
